@@ -1,0 +1,184 @@
+body, #app {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: .12rem;
+  min-width:1024px;
+  max-width:100%;
+  background: #F6F8F9;
+  color: #000000; 
+}
+  
+a{
+  color:#000;
+}
+
+/*  下拉框颜色  */
+.el-select .el-input.is-focus .el-input__inner {
+     border-color: #ddb500!important;
+}
+
+.el-range-editor.is-active, .el-range-editor.is-active:hover {
+    border-color: #ddb500!important;
+}
+
+/*  表格居中  */
+.cell{
+  text-align: center;
+  font-weight:400;
+  font-size: 14px; 
+}
+
+.el-table__row{
+  height: 40px!important;
+  color: #8d8d8d;
+}
+
+.el-pager li.active{
+   background: #f7ba2a!important;
+}
+
+.con_tab input{
+    text-align: center;
+    border: none;
+}
+
+.con_tab tr:hover>td{
+  background: red;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0) inset;
+}
+
+/* .user-input {
+    width: 200px;
+    margin: 0 8px 0 10px;
+} */
+
+/*  新增模板按钮  */
+
+.nAddTemp {
+    margin: 18px 0 10px 0;
+}
+
+input::-webkit-input-placeholder{
+  color:white;
+}
+
+input::-webkit-input-placeholder{
+  color:white;
+}
+
+.el-tree-node__content>span:nth-child(1){
+  padding: 0;
+}
+
+.el-tree-node__content>span:nth-child(1)::before{
+  display: none;
+}
+
+.el-tree-node__content>span:nth-child(2){
+  width: 100%;
+  font-size: 14px;
+}
+
+.el-message-box__message>p{
+  padding-left: 10px;
+}
+
+.el-menu--horizontal>.el-menu-item.is-active{
+  border-bottom: 2px solid #ddb500;
+}
+
+.addgoods .el-dialog{
+    width: 760px!important; 
+}
+
+/* 查看详情dialog */
+
+.RementRules .el-dialog{
+    margin-top: 10vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 800px!important; 
+    height: 500px!important; 
+}
+
+/* 补货规则dialog */
+
+.detailWidth .el-dialog{
+  margin-top: 10vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 620px!important; 
+  height: 780px!important; 
+}
+
+/*  批量绑定设备  */
+.BindContainer .el-dialog{
+    width: 400px!important; 
+    text-align: center;
+}
+
+.BindContainer form{
+    border: 1px solid red; 
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+/*  添加商品 商品名称输入框  */
+
+.diaInput {
+    width: 160px;
+    /* float: left; */
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+/*  confirm提示框  */
+.el-message-box__btns{
+  text-align: center;
+}
+
+.dialog-footer{
+  text-align: center;
+}
+
+.orderSearch .cell{
+  text-align: left;
+}
+
+/*  多级表头颜色  */
+.el-table thead.is-group th {
+     background: rgb(246, 246, 238);
+}
+
+/* 表格固定列取消阴影 */
+.el-table__fixed-right {
+  top: 0;
+  left: auto;
+  right: 0;
+  -webkit-box-shadow: 0px 0 2px #d3d4d6;
+  box-shadow: 0px 0 2px #d3d4d6;
+}
+
+/* 表格字体颜色 */
+.el-table__row{
+  color: rgb(61, 59, 31);
+}
+
+/* 排序箭头大小 */
+.sort-caret{
+  width: 2px!important;
+}
+/* 选择时间控件 时分秒错位纠正 */
+.el-time-panel__content::before{
+  /* content: '' */
+  left: -24px;
+}
+
+/*# sourceMappingURL=style.css.map */

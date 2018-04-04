@@ -1,0 +1,5 @@
+{
+  "serverAddress": "https://testshop.51teatime.com",
+  "picAddress": "http://teatime-pic.oss-cn-beijing.aliyuncs.com/",
+  "xlsxAddress":"https://teatime-excel.oss-cn-beijing.aliyuncs.com"
+}
